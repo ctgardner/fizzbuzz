@@ -1,0 +1,33 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "format": "prettier src --write",
+    "lint": "eslint src",
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctgardner/fizzbuzz.git"
+  },
+  "keywords": [
+    "fizz",
+    "buzz",
+    "fizzbuzz"
+  ],
+  "author": "ctgardner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctgardner/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/ctgardner/fizzbuzz#readme",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
+}
