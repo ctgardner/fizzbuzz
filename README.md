@@ -51,7 +51,7 @@ npm run test
 
 ## Code-style
 
-Staged changes are automatically linted and formatted on `pre-commit` using `pretty-quick` and `husky`.
+Staged changes are automatically linted and formatted on `pre-commit` using `husky`, `lint-staged` and `pretty-quick`.
 
 ### Linting
 
@@ -63,7 +63,7 @@ npm run lint
 
 ### Formatting
 
-Formatting is performed using `prettier`.
+Formatting is performed using `prettier` (via `pretty-quick`).
 
 ```js
 npm run format
